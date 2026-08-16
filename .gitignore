@@ -1,0 +1,47 @@
+.venv/
+.env
+.env.*
+!.env.example
+*.egg-info/
+build/
+dist/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+logs/*.log
+*.log
+logs/
+data/
+backups/
+.test-tmp/
+third_party/
+tools/**/build-output/
+wx4py.log
+*.obj
+*.dll
+/ChatGPT Image Aug 14, 2026, 04_16_34 PM.png
+.idea/
+.vscode/
+.DS_Store
+
+# This public safe edition intentionally excludes platform-client automation,
+# client hooks, and their historical implementation files.
+/scripts/
+/tools/
+/docs/*
+!/docs/SAFE_INTEGRATION.md
+!/docs/PRIVACY_NOTICE_TEMPLATE.md
+/src/wechat_deepseek_bot/wechat/hook/
+/src/wechat_deepseek_bot/wechat/hook_adapter.py
+/src/wechat_deepseek_bot/wechat/hook_diagnostics.py
+/src/wechat_deepseek_bot/wechat/hook_models.py
+/src/wechat_deepseek_bot/wechat/pyweixin_adapter.py
+/src/wechat_deepseek_bot/wechat/wx4py_adapter.py
+/tests/test_hook_*.py
+/tests/test_native_at_contract.py
+/tests/test_pyweixin_adapter.py
+/tests/test_startup_support.py
+/tests/test_wechat_adapter.py
+/tests/test_weixin_hook_loader.py
